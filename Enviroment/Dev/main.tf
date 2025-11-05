@@ -3,3 +3,7 @@ module "rgs" {
   rg_list = var.module_rg_list
 
 }
+module "vnet" {
+  source     = "../../Module/vnet"
+  Vnet_list  = var.module_vnet_list
+}

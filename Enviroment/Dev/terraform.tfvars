@@ -8,3 +8,15 @@ module_rg_list = {
     location = "West US"
   }
 }
+module_vnet_list = {
+  "vnet1" = {
+    name                = "dev-vnet-1"
+    location            = "East US"
+    resource_group_name = "dev-resource-group-1"
+  }
+  "vnet2" = {
+    name                = "dev-vnet-2"
+    location            = "West US"
+    resource_group_name = "dev-resource-group-2"
+  }
+}
