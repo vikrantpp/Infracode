@@ -4,6 +4,7 @@ module "rgs" {
 
 }
 module "vnet" {
+  depends_on = [ module.rgs ]
   source     = "../../Module/vnet"
   Vnet_list  = var.module_vnet_list
 }
